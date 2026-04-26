@@ -1,11 +1,14 @@
 import {useState,useEffect} from 'react';
 import "./App.css";
-
+import Loader from './loading/Loader';
 
 const App = () => {
   const [products,setProducts]=useState([]);
+  const [loading,setLoading]=useState(true);
+  const [error,setError]=useState(null);
+
   useEffect(()=>{
-    fetch("https://fakestoreapi.com/products").then((res)=>res.json()).then((data)=>setProducts(data))
+    fetch("https://fakestoreapi.com/products").then((res)=>res.json()).then((data)=>{setProducts(data); setLoading(false);}).catch((err)=>{ console.log(err); setLoading(false); setError("please try after sometime!");});
   },[])
   return (
     <div className="products-container">
@@ -21,6 +24,8 @@ const App = () => {
         ))
         }
         </div>
+        <div className="loader">{loading && <Loader/>}</div>
+        <div className="error">{error && <h2>{error}</h2>}</div>
     </div>
   )
 }
