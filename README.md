@@ -1,16 +1,27 @@
-# React + Vite
+## React API Project 🚀
+This is a simple React application that demonstrates how to fetch and display data from an external API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+In this Project, I used React to build a user interface that retrieves product data from an API and displays it dynamically on the screen.
 
-Currently, two official plugins are available:
+## ⚙️Features
+-Fetch data from an API
+-Display products dynamically
+-Clean and responsive UI
+-Component-based structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+-ReactJS
+-JavaScript
+-HTML5
+-CSS3
 
-## React Compiler
+## 🌐 API used
+Fake Store API (htt ps://fakestoreapi.com/products)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🙌 Conclusion
+This project helped me understand the basics of API integration in React and improved my frontend development Skills.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author
+**Laxmiprasanna Adepu**
+Aspiring Frontend Developer.
