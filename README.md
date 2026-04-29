@@ -22,6 +22,8 @@ Fake Store API (htt ps://fakestoreapi.com/products)
 ## 🙌 Conclusion
 This project helped me understand the basics of API integration in React and improved my frontend development Skills.
 
+##Live Demo:https://api-products-app.netlify.app
+
 ## Author
 **Laxmiprasanna Adepu**
 Aspiring Frontend Developer.
